@@ -20,7 +20,7 @@ body {
 }
 
 h1 { margin-bottom: 10px; font-size: 28px; color: #333; }
-h2 { margin-bottom: 25px; font-size: 18px; color: #4caf50; font-weight: 400; }
+h2 { margin-bottom: 25px; font-size: 18px; color: #d32121; font-weight: 400; }
 
 .container input,
 .container textarea {
@@ -41,12 +41,12 @@ h1, h2 {
   
 
 input:focus, textarea:focus {
-  border-color: #4caf50;
+  border-color: #d32121;
   box-shadow: 0 0 5px rgba(76,175,80,0.3);
 }
 
 button {
-  background: #4caf50;
+  background: #d32121;
   color: white;
   border: none;
   padding: 14px;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  background: #45a049;
+  background: #d32121;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -75,7 +75,7 @@ button:hover {
 
 body {
     font-family: 'Inter', sans-serif;
-    background: url('image_fond.jpeg') no-repeat center center fixed;
+    background: url('image_fond.png') no-repeat center center fixed;
     background-size: cover; /* l'image couvre tout l'écran */
     margin: 0;
     padding: 0;
@@ -103,7 +103,7 @@ body {
 
 .thank-you h1 {
   font-family: 'Anton', sans-serif;
-  color: limegreen;
+  color: d32121;
   margin-bottom: 20px;
 }
 
